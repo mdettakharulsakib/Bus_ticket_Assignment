@@ -111,7 +111,7 @@ function cupon(){
         const grandPrice = document.getElementById('grand-price')
         grandPrice.innerText = grand_price;
         const discountPrice = document.getElementById('discount-price');
-        discountPrice.innerText = (total_price*15/100);
+        discountPrice.innerText = (total_price*20/100);
     }
     else{
         const grandPrice = document.getElementById('grand-price')
