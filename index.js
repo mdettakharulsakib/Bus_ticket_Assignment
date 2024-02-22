@@ -1,5 +1,5 @@
 let seat_array = [];
-let copupon_code = ['NEW15','Couple 20'];
+let cupon_code = ['NEW15','Couple 20'];
 let signal = false ;
 const per_ticket_price = 550 ;
 let total_price = 0 ;
@@ -86,9 +86,9 @@ function seat_selected(id_value){
 }
 
 
-function copupon(){
-    let copupon = document.getElementById('input-disable');
-    let copupunCheek = copupon.value;
+function cupon(){
+    let cupon = document.getElementById('input-disable');
+    let copupunCheek = cupon.value;
     console.log(copupunCheek);
     let label_copupun = document.getElementById('label-id');
     label_copupun.classList.add('hidden');
